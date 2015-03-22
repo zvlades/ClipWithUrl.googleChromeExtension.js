@@ -5,13 +5,14 @@
     } else if (document.selection && document.selection.type != "Control") {
         text = document.selection.createRange().text;
     }
-    console.log("text got by action_script: " + text);
-    // return text;
+
+    if (text) {
+        console.log("text got by action_script: " + text);
+        chrome.runtime.sendMessage(
+	        {selectedText: text}
+	        , function(response) {console.log(response.farewell);}
+        );
+    } else {
+        return;
+    }
 }());
-
-// function sendSelectedTextToExtension(){
-// 	var selectedText = getSelectionText();
-// 	chrome.extension.sendRequest(selectedText);
-// }
-
-// sendSelectedTextToExtension();
