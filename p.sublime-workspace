@@ -1,0 +1,742 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cons",
+				"console"
+			],
+			[
+				"get",
+				"getCurrentTabUrl"
+			],
+			[
+				"send",
+				"sendSelectedTextToExtension"
+			],
+			[
+				"se",
+				"selectedText"
+			],
+			[
+				"do",
+				"doIt2"
+			],
+			[
+				"rende",
+				"renderSelectedText"
+			],
+			[
+				"getSele",
+				"getSelectionText"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"styl",
+				"style	Tag"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"ali",
+				"text-align"
+			],
+			[
+				"paddi",
+				"padding-right"
+			],
+			[
+				"pad",
+				"padding-left"
+			],
+			[
+				"s",
+				"style	Attr"
+			],
+			[
+				"st",
+				"style	HTML - Stylesheet link"
+			],
+			[
+				"al",
+				"text-align"
+			],
+			[
+				"n",
+				"normal"
+			],
+			[
+				"l",
+				"lighter"
+			],
+			[
+				"b",
+				"bottom"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"as",
+				"asEngBlog"
+			],
+			[
+				"sty",
+				"style	Attr"
+			],
+			[
+				"git",
+				"gitlabhq"
+			],
+			[
+				"comm",
+				"comm	jsonComment"
+			],
+			[
+				"butto",
+				"button_alert"
+			],
+			[
+				"com",
+				"comm	jsonComment"
+			],
+			[
+				"iss",
+				"issue	jsonIssue"
+			],
+			[
+				"va",
+				"values"
+			],
+			[
+				"вет",
+				"ветку"
+			],
+			[
+				"раз",
+				"разобраться"
+			],
+			[
+				"per",
+				"period	jsonPeriod"
+			],
+			[
+				"больниц",
+				"больницу"
+			],
+			[
+				"та",
+				"также"
+			],
+			[
+				"измени",
+				"изменения"
+			],
+			[
+				"re",
+				"revert"
+			],
+			[
+				"универ",
+				"университете"
+			],
+			[
+				"Per",
+				"Period"
+			],
+			[
+				"Pro",
+				"project"
+			],
+			[
+				"is",
+				"issues	jsonIssuesBlock"
+			],
+			[
+				"issu",
+				"issues	jsonIssuesBlock"
+			],
+			[
+				"Vla",
+				"VladZamskoi"
+			],
+			[
+				"офи",
+				"офиса"
+			],
+			[
+				"бли",
+				"близка"
+			],
+			[
+				"зарп",
+				"зарплаты"
+			],
+			[
+				"кров",
+				"кровью"
+			],
+			[
+				"корм",
+				"кормления"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 263.0,
+		"selected_items":
+		[
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"prop",
+				"Set Syntax: Java Properties"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"vbs",
+				"Set Syntax: VBScript"
+			],
+			[
+				"mark",
+				"Markdown Preview: Export HTML in Sublime Text"
+			],
+			[
+				"markdow",
+				"Markdown Preview: Export HTML in Sublime Text"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"read",
+				"ReadmePlease"
+			],
+			[
+				"pre",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"previw",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"rea",
+				"ReadmePlease"
+			],
+			[
+				"mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 408.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/D/r/ClipWithURL/dev/content_script.js",
+		"/D/r/ClipWithURL/sampleChromeExtension/popup.js",
+		"/D/r/ClipWithURL/dev/background.js",
+		"/D/r/ClipWithURL/dev/manifest.json",
+		"/D/r/ClipWithURL/redder/background.js",
+		"/D/d/baby/car.txt",
+		"/D/r/ClipWithURL/dev/popup.html",
+		"/D/r/ClipWithURL/dev/popup.js",
+		"/D/r/ClipWithURL/email_this_page/options.html",
+		"/D/r/ClipWithURL/email_this_page/manifest.json",
+		"/D/r/ClipWithURL/email_this_page/background.js",
+		"/D/r/ClipWithURL/sampleChromeExtension/popup.html",
+		"/D/r/ClipWithURL/sampleChromeExtension/manifest.json",
+		"/D/r/ClipWithURL/dev/action.js",
+		"/C/Users/vzamskoi/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/D/r/ClipWithURL/dev/red.js",
+		"/D/r/template-chrome/src/lib/popup.coffee",
+		"/D/r/ClipWithURL/sampleChromeExtension/f.txt",
+		"/D/r/ClipWithURL/redder/manifest.json",
+		"/D/r/ClipWithURL/dev/getSelectedText.js",
+		"/D/temp/t.html",
+		"/D/temp/t.js",
+		"/D/temp/t,js",
+		"/D/r/ClipWithURL/f.txt",
+		"/C/c/OneDrive/diary/di.md",
+		"/D/d/BeSmart/SuperLoto/infohtml-for-superloto/site/spi.html",
+		"/D/d/BeSmart/SuperLoto/infohtml-for-superloto/site/index.html",
+		"/C/c/OneDrive/beSmart/belagroWP/bugs&featureRequests (1).properties",
+		"/C/Users/vzamskoi/AppData/Local/Temp/FTMBE8.tmp/info.txt",
+		"/C/c/OneDrive/beSmart/wpAccount/info.txt",
+		"/C/c/OneDrive/beSmart/belagroWP/belagroWP_bugs.txt",
+		"/C/c/OneDrive/beSmart/belagroWP/bugs.txt",
+		"/C/c/OneDrive/beSmart/belagroWP/bugs&featureRequests.properties",
+		"/D/d/BeSmart/BeSmartTasks.json",
+		"/C/c/OneDrive/freeraven.com/content.txt",
+		"/D/d/BeSmart/SuperLoto/infohtml-for-superloto/content/faqText.html",
+		"/D/d/BeSmart/SuperLoto/infohtml-for-superloto/content/faq.html",
+		"/D/d/BeSmart/SuperLoto/infohtml-for-superloto/content/origin.txt",
+		"/D/d/BeSmart/SuperLoto/infohtml-for-superloto/accordion/content.html",
+		"/D/d/BeSmart/SuperLoto/infohtml-for-superloto/content/origin.html",
+		"/D/d/BeSmart/SuperLoto/infohtml-for-superloto/task.txt",
+		"/D/d/BeSmart/SuperLoto/infoHTML/content/task.txt",
+		"/D/d/BeSmart/SuperLoto/infoHTML/content/faqText.html",
+		"/D/d/BeSmart/SuperLoto/infoHTML/accordion/content.html",
+		"/D/d/BeSmart/SuperLoto/infoHTML/jquery-ui-1.11.4.custom/index.html",
+		"/D/d/BeSmart/SuperLoto/infoHTML/faqText.html",
+		"/D/d/BeSmart/SuperLoto/infoHTML/faq.html",
+		"/C/c/OneDrive/KoshelevaN/byfly.txt",
+		"/D/temp/search_results.csv",
+		"/D/temp/AIInstallation.txt",
+		"/D/d/BeSmart/SuperLoto/UIImages/BonusPlus/scaling.txt",
+		"/D/d/soft/AdobeCS6/Crack/install.txt",
+		"/D/temp/bnbInfoWindow.xml",
+		"/D/temp/bagpInfoWindow.xml",
+		"/D/temp/mClusterManager.setOnClusterClickListener.java",
+		"/C/c/OneDrive/FileSystemOrganization/FileSystemOrganization.md",
+		"/D/temp/t.md",
+		"/C/c/OneDrive/SubLimeText_+partial/VladZamskoiSnippets/mdDiaryNewDay.sublime-snippet",
+		"/C/c/OneDrive/SubLimeText_+partial/VladZamskoiSnippets/mdDiaryNewNote.sublime-snippet",
+		"/D/d/BeSmart/paymentsystemAndroid/.git/COMMIT_EDITMSG",
+		"/C/c/OneDrive/asana/tasks.csv",
+		"/C/c/OneDrive/rules/FileSystemOrganization.md",
+		"/C/c/OneDrive/SubLimeText_+partial/VladZamskoiSnippets/mdDiaryNoteEnd.sublime-snippet",
+		"/D/d/FreeRaven_web-site/site/index.html",
+		"/D/temp/Nov,16,2014/JavascriptLittleDemo/test.html",
+		"/D/d/FreeRaven_web-site/content/AboutMe.md",
+		"/D/d/FreeRaven_web-site/index.html",
+		"/D/d/FreeRaven_web-site/content/index.md",
+		"/C/c/OneDrive/Git/VladZamskoiNotes.txt",
+		"/C/c/OneDrive/SubLimeText_+partial/VladZamskoiSnippets/mdDiaryTagHealth.sublime-snippet",
+		"/C/Users/vzamskoi/AppData/Roaming/Sublime Text 3/Packages/User/VladZamskoiSnippets/mdDiaryTagHealth.sublime-snippet",
+		"/C/c/OneDrive/costsLocal/.git/COMMIT_EDITMSG",
+		"/D/temp/map_point_details_layout.xml",
+		"/D/temp/mClusterManager.java",
+		"/D/d/BeSmart/BNB/BNBMapData.csv",
+		"/C/c/OneDrive/SubLimeText_partial/VladZamskoiSnippets/mdDiaryNoteEnd.sublime-snippet",
+		"/C/c/OneDrive/SubLimeText_partial/VladZamskoiSnippets/mdDiaryNewDay.sublime-snippet",
+		"/C/c/OneDrive/SubLimeText_partial/VladZamskoiSnippets/mdDiaryNewNote.sublime-snippet",
+		"/C/c/OneDrive/asana/Bugs.md",
+		"/C/c/OneDrive/SubLimeText_partial/User/VladZamskoiSnippets/mdDiaryNewDay.sublime-snippet",
+		"/C/c/OneDrive/SubLimeText_partial/User/VladZamskoiSnippets/mdDiaryNewNote.sublime-snippet",
+		"/C/c/OneDrive/Pet/BuildReport/draft.txt",
+		"/C/c/OneDrive/SubLimeText_partial/User/VladZamskoiSnippets/mdDiaryNoteEnd.sublime-snippet",
+		"/C/c/OneDrive/SubLimeText_partial/partial.txt",
+		"/C/c/OneDrive/freeraven.com/freeraven.com/about.txt",
+		"/D/d/FreeRaven_site/content/portfolio-content.html",
+		"/D/d/FreeRaven_site/content/vlad-zamskoi-more-info-content.html",
+		"/C/c/OneDrive/MihailMladinsky/dialogueAboutSavelyev.txt",
+		"/C/c/OneDrive/freeraven.com/freeraven.com/web-site/index.html",
+		"/C/c/OneDrive/freeraven.com/Hostinger/indexOrigin.php",
+		"/C/c/OneDrive/freeraven.com/freeraven.com/web-site/header.html",
+		"/C/Users/vzamskoi/AppData/Roaming/Sublime Text 3/Packages/Markdown Preview/README.md",
+		"/C/c/OneDrive/diary/mar-6-15.txt",
+		"/C/c/OneDrive/freeraven.com/freeraven.com/site/blank-pattern_v.1.2.html",
+		"/C/c/OneDrive/freeraven.com/freeraven.com/site/content/contacts-content.html",
+		"/D/temp/Nov,16,2014/chita/index.html",
+		"/D/temp/Nov,16,2014/chita/_css/style.css",
+		"/D/temp/Nov,16,2014/chita/_css/font.css",
+		"/C/c/OneDrive/SubLimeText/User/VladZamskoiSnippets/russianQuotes.sublime-snippet",
+		"/C/c/OneDrive/asana/report.txt",
+		"/C/c/OneDrive/SubLimeText/User/VladZamskoiSnippets/mdDiaryNewNote.sublime-snippet",
+		"/C/c/OneDrive/SubLimeText/User/VladZamskoiSnippets/mdDiaryNewDay.sublime-snippet",
+		"/C/c/OneDrive/SubLimeText/User/VladZamskoiSnippets/mdDiaryNoteEnd.sublime-snippet",
+		"/C/c/OneDrive/SubLimeText/User/VladZamskoiSnippets/.git/COMMIT_EDITMSG",
+		"/C/c/OneDrive/SubLimeText/User/VladZamskoiSnippets/mdDiaryStartTimeStamp.sublime-snippet",
+		"/C/Users/vzamskoi/AppData/Roaming/Sublime Text 3/Packages/User/VladZamskoiSnippets/mdDiaryNewNote.sublime-snippet",
+		"/C/c/OneDrive/SubLimeText/User/VladZamskoiSnippets/mdDiaryEndTimeStamp.sublime-snippet",
+		"/C/Users/vzamskoi/AppData/Roaming/Sublime Text 3/Packages/User/VladZamskoiSnippets/mdDiaryNewEntry.sublime-snippet",
+		"/C/c/OneDrive/temp/current plan.txt",
+		"/D/temp/new  1.xml",
+		"/C/c/OneDrive/asana/Bugs.txt",
+		"/C/c/OneDrive/SubLimeText/ReadMe.txt",
+		"/C/c/OneDrive/diary/di.json",
+		"/C/Users/vzamskoi/AppData/Roaming/Sublime Text 3/Packages/User/VladZamskoiSnippets/mdDiaryEndTimeStamp.sublime-snippet",
+		"/C/Users/vzamskoi/AppData/Roaming/Sublime Text 3/Packages/User/VladZamskoiSnippets/mdDiaryStartTimeStamp.sublime-snippet",
+		"/C/Users/vzamskoi/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/vzamskoi/AppData/Roaming/Sublime Text 3/Packages/User/VladZamskoiSnippets/.git/COMMIT_EDITMSG",
+		"/C/c/OneDrive/SubLimeText/VladZamskoiSnippets/mdDiaryStartTimeStamp.sublime-snippet",
+		"/C/c/OneDrive/SubLimeText/VladZamskoiSnippets/mdDiaryEndTimeStamp.sublime-snippet",
+		"/C/c/OneDrive/SubLimeText/VladZamskoiSnippets/mdDiaryTimeStamp.sublime-snippet",
+		"/C/c/OneDrive/SubLimeText/VladZamskoiSnippets/jsonProperty.sublime-snippet",
+		"/C/Users/vzamskoi/AppData/Roaming/Sublime Text 3/Packages/User/VladZamskoiSnippets/mdDiaryTimeStamp.sublime-snippet",
+		"/C/c/OneDrive/diary/di2.md",
+		"/C/c/OneDrive/SubLimeText/VladZamskoiSnippets/russianQuotes.sublime-snippet",
+		"/C/c/OneDrive/diary/archive/di.html",
+		"/C/Users/vzamskoi/AppData/Roaming/Sublime Text 3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/C/Users/vzamskoi/AppData/Roaming/Sublime Text 3/Packages/User/VladZamskoiSnippets/htmlRightAlignedParagraph.sublime-snippet",
+		"/C/Users/vzamskoi/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/README.md"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"renderStatus",
+			"\"RC[1]\"",
+			"\"1\"",
+			"-+",
+			"h1",
+			"</span> ",
+			"</span>",
+			"^\\w.*$",
+			"</span>.*",
+			"<h3>.*</h3>",
+			"<h1>.*</h1>",
+			"jquery-ui.min.js",
+			"(\\(((\\w|-)*) ((\\w|-)*)+\\))",
+			"\\(((\\w|-)* (\\w|-)*)+\\)",
+			"\\((\\w|-)* (\\w|-)*\\)",
+			"\\((\\w|-)*\\s.(\\w|-)*\\)",
+			"\\((\\w|-)*\\s.(\\w|-)\\)",
+			"\\(\\w*\\s.\\w*)",
+			"\\(.*\\s.*\\)",
+			",\\s+",
+			"(\\* )(.*)",
+			"#{1}",
+			"#{2}",
+			"#{3}",
+			"#+",
+			"#+.*",
+			"2015-03-08,",
+			"Vlad Zamskoi",
+			"File system organization rules",
+			",,,,,,",
+			"page-title",
+			"section",
+			"header",
+			"sloga",
+			"logo-main",
+			"slogan",
+			"page-footer-comment",
+			"about",
+			"<a href=\"#contents\">Содержание</a>",
+			"К содержанию",
+			"\\[.*Содержани.*\\]",
+			"^<a href=\"#contents\">Содержание</a>",
+			"##",
+			"^(.*)",
+			"^\\[",
+			"page-title",
+			"email-address",
+			"about",
+			"border",
+			"logo-main",
+			"email-address",
+			"header-left-column",
+			"logo-footer",
+			"btn",
+			"header-link",
+			"about",
+			"clear",
+			"about",
+			"header-left-column",
+			"about",
+			"header-right-column",
+			"logo-main",
+			"header",
+			"header-right-column",
+			"about",
+			"header-right-column",
+			"header-left-column",
+			"logo-main",
+			"logo-footer",
+			"\\[.*\\]\\(.*\\)",
+			"asanaEngineers",
+			"\\n",
+			"   ",
+			"\\t",
+			"   ",
+			"<p.*",
+			"^(.*?)=\"(.*)\"",
+			"<h1>.*</h1>",
+			"</h1>.*\\n.*<h1>",
+			"</h1>.*<h1>",
+			"<span class=\"step_hdr\">.*</span>",
+			"(.*)",
+			"<span class=\"step_hdr\">.*</span>",
+			"<\\/?h1>",
+			"<h1>(.*)</h1>",
+			"<span class=\"step_hdr\">",
+			"лидо",
+			"больн",
+			"\\n",
+			"<BankWorkTimeRu>.*",
+			";",
+			"\"issueSolved\": false",
+			"состоян",
+			"gitlabhq",
+			"\"issueSolved\": false,",
+			"Миша",
+			"\\}(.*$)",
+			"^(\\w)",
+			"^([^\\{])",
+			"Add Task",
+			"Today",
+			"CommentIssue",
+			"comment[^s]+?\":\\s*\\{",
+			"comment[^s]+?\"",
+			"comment[^s]++\"",
+			"comment[^s]+\"",
+			"comment[^s\"]+\"",
+			"(comment[^s\"]+)\"",
+			"(comment[^s\\\"]+)\"",
+			"(comment[^s\"]+)\"",
+			"comment[^s\"]",
+			"comment[^\\\"]",
+			"comment[^\"]",
+			"team",
+			"\"issueSolved\": false,",
+			"\"issueSolved\": false",
+			"\"solved",
+			"\"solved\":false",
+			"qrap"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"renderSourceUrl",
+			"RC[1]",
+			"\"RC[1]\"",
+			"->",
+			"h3",
+			"",
+			"$1-$4",
+			"",
+			"$1\\[$2\\]\\($2\\)",
+			"$1\\[$2\\]\\(\\)",
+			"\\* ",
+			"\\t\\* ",
+			"\\t\\t\\* ",
+			"",
+			"footer",
+			"slogan",
+			"<a href=\"#contents\">Оглавление</a>",
+			"\\[Оглавление\\]",
+			"\\[Содержание\\]\\(#contents\\)",
+			">$1",
+			"<br>\\[",
+			"asEngSite",
+			"\\t",
+			"\\n",
+			"<item name=\\\"$1\\\">$2<\\/item>",
+			"",
+			"<span class=\"step_hdr\">$1</span>",
+			"",
+			"\\n<span class=\"step_hdr\">",
+			"\\n\\n",
+			";    ",
+			"$1",
+			"\\{$1",
+			"",
+			"Comment",
+			"\"issueSolved"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "p.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

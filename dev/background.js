@@ -4,14 +4,24 @@
 
 // Called when the user clicks on the browser action.
 chrome.browserAction.onClicked.addListener(function() {
-  // No tabs or host permissions needed!  
-  chrome.tabs.executeScript(null, {file: "content_script.js"});
+    // No tabs or host permissions needed!  
+    chrome.tabs.executeScript(null, {
+        file: "content_script.js"
+    });
 });
 
 chrome.runtime.onMessage.addListener(
-  function(request, sender, sendResponse) {
-      sendResponse({farewell: request.selectedText +" by " + sender.tab.url});
-  });
+    function(request, sender, sendResponse) {
+      var textWithUrl = request.selectedText + "\nsource: " + sender.tab.url;
+      // var elem = document.createElement("div");
+      // elem.id = 'text';
+      // elem.innerHTML = ' my Text '
+      // document.body.insertBefore(elem, document.body.childNodes[0]);
+      sendResponse(
+        {farewell: textWithUrl}
+      );
+    }
+);
 
 // function getCurrentTabUrl(callback) {
 //   // Query filter to be passed to chrome.tabs.query - see
@@ -53,9 +63,9 @@ chrome.runtime.onMessage.addListener(
 // }
 
 // chrome.extension.onRequest.addListener(function(selectedText){
-// 	if (selectedText !== ""){
+//  if (selectedText !== ""){
 
-// 	}
+//  }
 // });
 
 // function copy(str) {
