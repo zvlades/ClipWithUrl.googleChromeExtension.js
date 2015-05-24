@@ -1,10 +1,8 @@
 ﻿{
   "manifest_version": 2,
-
   "name": "ClipWithURL",
   "description": "This extension copies to clipboard selected text with page URL.",
   "version": "1.0",
-
   "browser_action": {
     "default_icon": "Source/icon.png",
     "default_title": "Copy selected text with page URL"
@@ -15,5 +13,16 @@
   "background": {
     "scripts": ["Source/background.js"],
     "persistent": false
+  },
+  "commands": {
+    "CopyWithURL": {
+      "suggested_key": {
+        "default": "Ctrl+C",
+        "mac": "Ctrl+C",
+        "chromeos": "Ctrl+C",
+        "linux": "Ctrl+C"
+      },
+      "description": "Copy to clipboard with source link"
+    }
   }
 }

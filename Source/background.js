@@ -12,6 +12,14 @@ chrome.browserAction.onClicked.addListener(function () {
     });
 });
 
+chrome.commands.onCommand.addListener(function(command) {
+    if(command === "CopyWithURL"){
+        chrome.tabs.executeScript(null, {
+            file: "Source/content_script.js"
+        });
+    }
+});
+
 function combineTwoStrings(leftString, rightString, optionalDelimiter) {
     if (optionalDelimiter) {
         return leftString + optionalDelimiter + rightString;
