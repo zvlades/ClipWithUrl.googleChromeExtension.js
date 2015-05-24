@@ -1,0 +1,30 @@
+﻿http://www.pakzilla.com/2012/03/20/how-to-copy-to-clipboard-in-chrome-extension/
+
+function copyToClipboard( text ){
+                var copyDiv = document.createElement('div');
+                copyDiv.contentEditable = true;
+                document.body.appendChild(copyDiv);
+                
+                //not very safety solution
+                copyDiv.innerHTML = text;
+                copyDiv.unselectable = "off";
+                copyDiv.focus();
+                document.execCommand('SelectAll');
+                document.execCommand("Copy", false, null);
+                document.body.removeChild(copyDiv);
+            }
+
+
+http://stackoverflow.com/questions/25622359/clipboard-copy-paste-on-content-script-chrome-extension
+
+chrome.runtime.onMessage.addListener(function(message) {
+    if (message && message.type == 'copy') {
+        var input = document.createElement('textarea');
+        document.body.appendChild(input);
+        input.value = message.text;
+        input.focus();
+        input.select();
+        document.execCommand('Copy');
+        input.remove();
+    }
+});
