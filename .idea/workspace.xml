@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0c25e75-3ed7-4a56-a087-86c537897a8a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Source/background.js" afterPath="$PROJECT_DIR$/Source/background.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manifest.json" afterPath="$PROJECT_DIR$/manifest.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="e0c25e75-3ed7-4a56-a087-86c537897a8a" name="Default" comment="" />
     <ignored path="WebProject.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,8 +63,8 @@
       <list>
         <option value="$PROJECT_DIR$/background.js" />
         <option value="$PROJECT_DIR$/content_script.js" />
-        <option value="$PROJECT_DIR$/Source/background.js" />
         <option value="$PROJECT_DIR$/manifest.json" />
+        <option value="$PROJECT_DIR$/Source/background.js" />
       </list>
     </option>
   </component>
