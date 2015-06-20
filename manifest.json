@@ -17,12 +17,12 @@
   "commands": {
     "CopyWithURL": {
       "suggested_key": {
-        "default": "Ctrl+C",
-        "mac": "Ctrl+C",
-        "chromeos": "Ctrl+C",
-        "linux": "Ctrl+C"
+        "default": "Alt+C",
+        "mac": "Alt+C",
+        "chromeos": "Alt+C",
+        "linux": "Alt+C"
       },
-      "description": "Copy to clipboard with source link"
+      "description": "Copy to clipboard with source Link"
     }
   }
 }
