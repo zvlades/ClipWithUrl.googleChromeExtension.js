@@ -28,7 +28,7 @@ function combineTwoStrings(leftString, rightString, optionalDelimiter) {
 }
 
 function combineTextWithSourceURL(text, sourceURL) {
-    var delimiter = "\n-------\nSource: ";
+    var delimiter = "\n-------\nSource:\n";
     var textWithSourceURL = combineTwoStrings(text, sourceURL, delimiter);
     return textWithSourceURL;
 }
