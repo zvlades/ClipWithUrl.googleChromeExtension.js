@@ -3,7 +3,7 @@ This is simple one-purpose **Google Chrome Browser extension** that allows you t
 
 
 ##How to use
-**To enable capability use unpablished extensions:**
+**To enable capability of using unpablished extensions:**
 
 1. go to `chrome://extensions/`
 1. Check `Developer mode` checkbox (at the top-right page corner)
