@@ -1,6 +1,7 @@
 chrome.runtime.onMessage.addListener(
     function(request, sender) {
         var textWithUrl = fromatTimeStampedTextAndUrl(request.selectedText, sender.tab.url);
+        // console.log('textWithUrl is ' + textWithUrl)
         copyToClipboard(textWithUrl);
     }
 );
@@ -61,8 +62,10 @@ function timeStamp() {
 
     var suffix = (time[0] < 12) ? "AM" : "PM";
 
+    // console.log('time[0] is ' + time[0])
+    
     // Convert hour from military time
-    time[0] = (time[0] < 12) ? time[0] : time[0] - 12;
+    time[0] = (time[0] < 13) ? time[0] : time[0] - 12;
 
     // If hour is 0, set it to '00'
     time[0] = time[0] || '00';
