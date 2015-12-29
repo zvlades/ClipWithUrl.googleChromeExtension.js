@@ -3,17 +3,17 @@ This is simple one-purpose **Google Chrome Browser extension** that allows you t
 
 
 ##How to use
-**To enable ability to use unpablished extensions:**
+**To enable ability to use unpublished extensions:**
 
 1. go to `chrome://extensions/`
-1. Check `Developer mode` checkbox (at the top-right page corner)
+1. Check `Developer mode` check-box (at the top-right page corner)
 
 **To add this extension in your browser:**
 
 1. click `Load unpacked extension...`
 1. select folder with _manifest.json_ file — this is root folder of this repo
 
-**To enable capability use unpablished extensions:**
+**To enable capability use unpublished extensions:**
 
 1. On any web-page just select text you want to copy and Press `Alt+C`.
 1. Go to any text-editor (or other text-input area) and press `Ctrl+V` to paste copied text with its source URL.
