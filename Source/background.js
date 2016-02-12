@@ -1,6 +1,6 @@
 chrome.runtime.onMessage.addListener(
     function(request, sender) {
-        var textWithUrl = fromatTimeStampedTextAndUrl(request.selectedText, sender.tab.url);
+        var textWithUrl = formatTimeStampedTextAndUrl(request.selectedText, sender.tab.url);
         // console.log('textWithUrl is ' + textWithUrl)
         copyToClipboard(textWithUrl);
     }
@@ -21,8 +21,8 @@ chrome.commands.onCommand.addListener(function(command) {
     }
 });
 
-function fromatTimeStampedTextAndUrl(text, sourceURL) {
-    return text + " [" + timeStamp() + ", source: (" + sourceURL + ")]";
+function formatTimeStampedTextAndUrl(text, sourceURL) {
+    return text + "\n    [" + timeStamp() + "]" + ", source: (" + sourceURL + ")";
 }
 
 function createTextContainer(copyBlockId) {
