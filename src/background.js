@@ -1,28 +1,27 @@
 chrome.runtime.onMessage.addListener(
     function(request, sender) {
         var textWithUrl = formatTimeStampedTextAndUrl(request.selectedText, sender.tab.url);
-        // console.log('textWithUrl is ' + textWithUrl)
         copyToClipboard(textWithUrl);
     }
 );
 
 chrome.browserAction.onClicked.addListener(function() {
-    // No tabs or host permissions needed!  
+    // No tabs or host permissions needed
     chrome.tabs.executeScript(null, {
-        file: "Source/content_script.js"
+        file: "src/content_script.js"
     });
 });
 
 chrome.commands.onCommand.addListener(function(command) {
     if (command === "CopyWithURL") {
         chrome.tabs.executeScript(null, {
-            file: "Source/content_script.js"
+            file: "src/content_script.js"
         });
     }
 });
 
 function formatTimeStampedTextAndUrl(text, sourceURL) {
-    return text + "\n    [" + timeStamp() + "]" + ", source: (" + sourceURL + ")";
+    return text + "  \n    [" + timeStamp() + "]" + ", source: (" + sourceURL + ")";
 }
 
 function createTextContainer(copyBlockId) {
@@ -52,7 +51,7 @@ function copyToClipboard(text) {
 
 /**
  * Return a timestamp with the format "m/d/yy h:MM TT"
- * @type {Date}
+ * @type {String}
  */
 function timeStamp() {
     // Create a date object with the current time
@@ -61,8 +60,6 @@ function timeStamp() {
     var time = [now.getHours(), now.getMinutes()];
 
     var suffix = (time[0] < 12) ? "AM" : "PM";
-
-    // console.log('time[0] is ' + time[0])
     
     // Convert hour from military time
     time[0] = (time[0] < 13) ? time[0] : time[0] - 12;

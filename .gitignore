@@ -1,1 +1,4 @@
 .idea
+.html.generated
+*.sublime-project
+*.sublime-workspace

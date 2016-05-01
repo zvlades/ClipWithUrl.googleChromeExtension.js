@@ -1,19 +1,20 @@
 ﻿{
   "manifest_version": 2,
   "name": "ClipWithURL",
-  "description": "This extension copies to clipboard selected text with page URL.",
+  "description": "This extension copies to clipboard selected text with page URL and time-stamp.",
   "version": "1.0",
   "browser_action": {
-    "default_icon": "Source/icon.png",
+    "default_icon": "src/icon.png",
     "default_title": "Copy selected text with page URL"
   },
   "permissions": [
     "activeTab"
   ],
   "background": {
-    "scripts": ["Source/background.js"],
+    "scripts": ["src/background.js"],
     "persistent": false
   },
+  "icons": { "128": "logotype.png" },
   "commands": {
     "CopyWithURL": {
       "suggested_key": {
@@ -22,7 +23,8 @@
         "chromeos": "Alt+C",
         "linux": "Alt+C"
       },
-      "description": "Copy to clipboard with source Link"
+      "description": "Copy to clipboard with source link"
     }
   }
 }
+
