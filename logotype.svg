@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="19"
+   height="19"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   inkscape:export-filename="/home/zvlad/AFiles/r/Tools/clipwithurl/logotype.png"
+   inkscape:export-xdpi="606.3158"
+   inkscape:export-ydpi="606.3158"
+   sodipodi:docname="New document 1">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="11.313709"
+     inkscape:cx="17.203125"
+     inkscape:cy="10.215828"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer2"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1014"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1033.3622)">
+    <rect
+       style="fill:#f49d2a;fill-opacity:1"
+       id="rect3794"
+       width="19"
+       height="19"
+       x="0"
+       y="1033.3622" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Clipper"
+     style="display:inline">
+    <path
+       id="clip_2_"
+       d="M 4.5069339,11.386807 11.266152,3.2569847 c 1.250415,-1.4804516 3.359613,-1.5541064 4.708354,-0.1644179 1.351609,1.3901614 1.432809,3.720732 0.182431,5.2012322 l -4.491706,5.44114 0.995105,0.306845 4.259617,-5.1056483 C 18.528059,7.033258 18.423598,4.0365669 16.686672,2.2505001 l -2.6e-5,6.5e-6 C 14.950633,0.46335925 12.239696,0.55802727 10.632577,2.4619187 L 3.2916306,11.43798 m 7.2844024,1.837435 4.946342,-5.7819583 c 0.893217,-1.0575716 0.835204,-2.718852 -0.129613,-3.7115409 -0.9648,-0.9921644 -2.470822,-0.939573 -3.36311,0.1174481 L 7.0133581,9.838601 c -0.1788085,0.212233 -0.1672425,0.543462 0.025939,0.742705 0.1931603,0.198769 0.4937931,0.188272 0.6726231,-0.02349 L 12.728669,4.6180335 c 0.535129,-0.6330375 1.439889,-0.664632 2.01787,-0.070474 0.577997,0.5946918 0.612879,1.5935638 0.07777,2.2271259 L 9.6504956,12.780496"
+       inkscape:connector-curvature="0"
+       style="fill:#4d4d4d"
+       sodipodi:nodetypes="cccccccccccccccccccccc" />
+    <g
+       style="fill:#4d4d4d;stroke:none"
+       id="icon-44-sailing-boat-water"
+       transform="matrix(0.7037037,0,0,0.7037037,-2.0396824,-5.2544214)">
+      <path
+         inkscape:connector-curvature="0"
+         d="M -2.3515674,28.071725 C -1.763895,27.637601 -1.1263101,27.210246 -0.44258291,26.802216 5.0376041,23.531782 11.030982,22.772347 16.982068,26.119833 c 5.465565,3.074379 10.582954,2.393735 15.114606,-0.614755 0.846841,-0.562205 1.600152,-1.164236 2.250057,-1.765672 l 0,1.797272 c -0.463562,0.376057 -0.963515,0.74574 -1.498293,1.100772 -4.923077,3.26835 -10.572351,4.019739 -16.532731,0.667025 -5.466558,-3.074939 -10.9618007,-2.378624 -16.06175959,0.664899 -0.9685971,0.578035 -1.83914861,1.197465 -2.59688081,1.815908 -0.00288,0.0023 -0.00576,0.0048 -0.00863,0.0071 l 0,-1.720608 0,0 0,0 z m 4.0492967,1.673497 c 4.8819376,-2.263308 10.0991917,-2.464447 15.2843387,0.452199 4.731967,2.661732 9.20295,2.508802 13.258783,0.467398 l 0,1.507481 C 25.969168,34.120479 21.249,34.157041 16.315707,31.382064 11.361408,28.59527 6.3835484,28.906056 1.6977293,31.254362 l 0,-1.50914 z"
+         id="sailing-boat-water"
+         sodipodi:nodetypes="cccsssccssscccccccsccsc"
+         style="fill:#4d4d4d" />
+    </g>
+  </g>
+</svg>
