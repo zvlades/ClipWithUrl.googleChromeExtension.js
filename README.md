@@ -13,7 +13,15 @@ ClipWithURL
 ```
 
 Timestamp, of source, is composed at the moment you are actually pressing `Alt+C`.  
-"Source" is what you see at your browser's address bar at the moment of pressing the shortcut.
+"source" contains what you see at your browser's address bar at the moment of pressing the shortcut.
+
+Here is how it looks like after markdown processing:  
+
+---
+ClipWithURL  
+    [10/15/2016 3:12 AM], source: <https://github.com/jvlad/ClipWithUrl.googleChromeExtension.js>
+
+---
 
 ##How to enable
 **1. Enable ability to use unpublished extensions:**
