@@ -50,8 +50,8 @@ You can always change default `Alt+C` keys shortcut. To do so
 
 ##Update notes
 
-Tested on Mon, May-2-2016  
-for Google Chrome Version 49.0.2623.110 (64-bit)
+Tested on Sat Oct 15 2016
+for Google Chrome Version 53.0.2785.92 (64-bit)
 
 
 ##Contact author
