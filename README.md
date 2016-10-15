@@ -5,6 +5,16 @@ Google Chrome Browser extension
 ##What does it do
 Copies any text on a web-page **with web-page URL and time stamp** directly to clipboard.
 
+## Example
+After selecting "ClipWithURL" on this page and hitting the shortcut (default is `Alt+C`), you can paste the text to any place you want. Here is how it should look like:
+```
+ClipWithURL  
+    [10/15/2016 3:12 AM], source: <https://github.com/jvlad/ClipWithUrl.googleChromeExtension.js>
+```
+
+Timestamp, of source, is composed at the moment you are actually pressing `Alt+C`.  
+"Source" is what you see at your browser's address bar at the moment of pressing the shortcut.
+
 ##How to enable
 **1. Enable ability to use unpublished extensions:**
 
