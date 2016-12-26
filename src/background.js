@@ -21,7 +21,8 @@ chrome.commands.onCommand.addListener(function(command) {
 });
 
 function formatTimeStampedTextAndUrl(text, sourceURL) {
-    return text + "  \n    [" + timeStamp() + "]" + ", source: " + sourceURL;
+    let indentationSpace = "    "
+    return text + "  \n" + indentationSpace + "[" + timeStamp() + "]" + ", source:  \n" + indentationSpace + sourceURL;
 }
 
 function createTextContainer(copyBlockId) {
