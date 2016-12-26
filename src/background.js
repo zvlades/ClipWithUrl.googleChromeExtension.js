@@ -21,7 +21,7 @@ chrome.commands.onCommand.addListener(function(command) {
 });
 
 function formatTimeStampedTextAndUrl(text, sourceURL) {
-    return text + "  \n    [" + timeStamp() + "]" + ", source: <" + sourceURL + ">";
+    return text + "  \n    [" + timeStamp() + "]" + ", source: " + sourceURL;
 }
 
 function createTextContainer(copyBlockId) {
@@ -60,7 +60,7 @@ function timeStamp() {
     var time = [now.getHours(), now.getMinutes()];
 
     var suffix = (time[0] < 12) ? "AM" : "PM";
-    
+
     // Convert hour from military time
     time[0] = (time[0] < 13) ? time[0] : time[0] - 12;
 
@@ -74,4 +74,3 @@ function timeStamp() {
 
     return date.join("/") + " " + time.join(":") + " " + suffix;
 }
-
